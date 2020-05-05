@@ -1,0 +1,255 @@
+@media (min-width: 365px) {
+  /* Practices */
+
+  .practice-areas-container {
+    max-width: 990px;
+    margin: auto;
+  }
+
+  .practice-area {
+    border: 1px solid #fff;
+    flex: 28%;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+  }
+}
+
+@media (min-width: 540px) {
+  /* Hero */
+  .nav-container {
+    border: none;
+  }
+
+  .hero-container h4 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .hero-container h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .btn {
+    padding: 10px 14px;
+  }
+
+  /* Footer */
+
+  .footer-inner {
+    max-width: 990px;
+    margin: auto;
+  }
+
+  .footer-upper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-upper-container-left,
+  .footer-upper-container-right {
+    flex: 1 40%;
+  }
+
+  .footer-upper-container-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .footer-upper-subholder {
+    padding: 15px 0;
+    flex: 30%;
+  }
+
+  .footer-logo-container {
+    width: 150px;
+    height: 80px;
+    margin: 0 auto;
+  }
+
+  .footer-text-content-container {
+    padding: 10px 0;
+  }
+
+  .footer-upper {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .footer-lower {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-lower-icons-container {
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer-lower-icons-container > span {
+    padding: 0 10px;
+  }
+
+  .footer-lower-terms-container p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 740px) {
+  /* Heder */
+
+  .header {
+    background-color: transparent;
+  }
+
+  .navbar-listing {
+    display: flex;
+  }
+
+  .burger-container {
+    display: none;
+  }
+
+  .phone-number {
+    color: #000;
+  }
+
+  /* Hero */
+
+  .hero-container {
+    max-width: 540px;
+  }
+
+  .hero-container h4 {
+    font-size: 23px;
+    padding-bottom: 10px;
+  }
+
+  .hero-container h2 {
+    font-size: 35px;
+    padding-bottom: 10px;
+  }
+
+  .btn {
+    padding: 10px 14px;
+  }
+
+  /* Call for action */
+
+  .call-for-action-title {
+    color: var(--primary-yellow);
+    padding-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .call-for-action p {
+    font-size: 15px;
+    color: 000;
+    margin-bottom: 10px;
+  }
+
+  /* Practices */
+
+  .practice-areas-container {
+    max-width: 910px;
+    margin: auto;
+  }
+
+  .practice-area {
+    border: 1px solid #fff;
+    flex: 20%;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+  }
+
+  /* Contact */
+
+  .contact-container {
+    max-width: 1190px;
+    margin: auto;
+  }
+
+  .contact-text-title {
+    margin: 30px 0;
+    text-align: center;
+    color: var(--primary-yellow);
+    font-size: 26px;
+  }
+
+  .contact-text-content {
+    font-size: 18px;
+  }
+
+  .contact-text-list {
+    padding: 10px 0;
+  }
+
+  .contact-text-list li {
+    text-font: 15px;
+  }
+
+  .contact-form-title {
+    margin: 30px 0;
+    text-align: center;
+    color: var(--primary-yellow);
+    font-size: 26px;
+  }
+
+  .contact-form-text {
+    font-size: 18px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .contact-info-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-img-container {
+    flex-basis: 50%;
+  }
+
+  .contact-text-container {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 990px) {
+  /* Hero */
+
+  .hero-container {
+    max-width: 740px;
+  }
+
+  .hero-container h4 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .hero-container h2 {
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+
+  .btn {
+    padding: 15px 23px;
+  }
+
+  /* Call for action */
+
+  .call-for-action-container {
+    max-width: 890px;
+  }
+}

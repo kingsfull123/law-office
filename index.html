@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Law Office</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
     <script src="https://kit.fontawesome.com/3ca10d6b55.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -14,7 +15,7 @@
           <img src="./images/law.png" alt="logo" />
         </div>
         <nav class="navbar">
-          <ul>
+          <ul class="navbar-listing">
             <li><a href="">Home</a></li>
             <li><a href="">Pricing</a></li>
             <li><a href="">About</a></li>
@@ -38,12 +39,11 @@
           <button class="btn btn-transparent">Learn more</button>
         </div>
       </div>
-
       <div class="overlay"></div>
     </section>
     <section class="call-for-action">
       <div class="call-for-action-container">
-        <h1>Georgia’s Trusted Boutique Law Firm</h1>
+        <h1 class="call-for-action-title">Georgia’s Trusted Boutique Law Firm</h1>
         <p>
           The Law Office of Mahdi Abdur-Rahman boldly pushes limits for their clients, including personal
           injury victims and their families, business owners and entrepreneurs, and clients seeking to create
@@ -62,9 +62,9 @@
     <section class="practices">
       <div class="practices-container">
         <h3 class="practices-title">Areas of Practice</h3>
-        <span class="underline-holder">
+        <!-- <span class="underline-holder">
           <span class="underline"></span>
-        </span>
+        </span> -->
         <div class="practice-areas-container">
           <div class="practice-area">
             <i class="fas fa-gavel"></i>
@@ -118,8 +118,14 @@
             <img src="./images/handshake.jpg" alt="handshake" />
           </div>
           <div class="contact-text-container">
-            <h3 class="contact-text-title"></h3>
-            <p class="contact-text-content"></p>
+            <h3 class="contact-text-title">Our Firm’s Goals & Achievements</h3>
+            <p class="contact-text-content">
+              We aim to provide our customers with world-class customer service, while never compromising our
+              authenticity, integrity and professionalism. We intend to provide a holistic client experience
+              in which our clients receive exceptional service, appropriate education, and respect. Contact us
+              today to begin your client experience if you are in need of any of the following services:
+            </p>
+
             <ul class="contact-text-list">
               <li>Personal Injury</li>
               <li>Worker’s Compensation</li>
@@ -127,6 +133,7 @@
               <li>Small Business Consultation</li>
               <li>Intellectual Property</li>
             </ul>
+
             <button class="btn btn-yellow btn-large">Get in touch</button>
           </div>
         </div>
@@ -143,7 +150,7 @@
             <label for="">Phone Number</label>
             <input type="text" />
             <label for="">Your Message</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name=""></textarea>
           </form>
           <button class="btn btn-yellow btn-small">Send</button>
         </div>
@@ -151,56 +158,60 @@
     </section>
     <footer>
       <div class="footer-container">
-        <div class="footer-upper">
-          <div class="footer-upper-subholder">
-            <div class="footer-logo-container">
-              <img src="./images/law.png" alt="logo" />
+        <div class="footer-inner">
+          <div class="footer-upper">
+            <div class="footer-upper-container-left">
+              <div class="footer-logo-container">
+                <img src="./images/law.png" alt="logo" />
+              </div>
+              <div class="footer-text-content-container">
+                <p class="footer-text">
+                  <span class="footer-text-title">Law Office of Mahdi Abdur-Rahman</span>
+                  proudly provides world-class legal support and representation to the needs of our diverse
+                  clients, delivering exceptional results, and ensuring a holistic client experience.
+                </p>
+              </div>
             </div>
-            <div class="footer-text-content-container">
-              <h5 class="footer-text-title">Law Office of Mahdi Abdur-Rahman</h5>
-              <p class="footer-text">
-                proudly provides world-class legal support and representation to the needs of our diverse
-                clients, delivering exceptional results, and ensuring a holistic client experience.
+            <div class="footer-upper-container-right">
+              <div class="footer-upper-subholder">
+                <div class="footer-title">Quick Links</div>
+                <div class="footer-link">Home</div>
+                <div class="footer-link">Services</div>
+                <div class="footer-link">About Us</div>
+                <div class="footer-link">Contact Us</div>
+                <div class="footer-link">Practices Areas</div>
+              </div>
+              <div class="footer-upper-subholder">
+                <div class="footer-title">Service Offerings</div>
+                <div class="footer-link">Personal Injury</div>
+                <div class="footer-link">Workers Compensation</div>
+                <div class="footer-link">Small Business Consulting</div>
+                <div class="footer-link">Estate Planning</div>
+                <div class="footer-link">Intellectual Property</div>
+              </div>
+              <div class="footer-upper-subholder">
+                <div class="footer-title">Head Office</div>
+                <div class="footer-link">206 Pryor Street, Suite C-2,</div>
+                <div class="footer-link">Atlanta, GA 30303</div>
+                <div class="footer-link">Email: example@example.com</div>
+                <div class="footer-link">Phone: (470) 225-8642</div>
+                <div class="footer-link">Fax: (404) 393-1849</div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-lower">
+            <div class="footer-lower-icons-container">
+              <span><i class="fab fa-facebook-square"></i></span>
+              <span><i class="fab fa-instagram"></i></span>
+              <span><i class="fab fa-twitter-square"></i></span>
+              <span><i class="fab fa-linkedin-in"></i></span>
+            </div>
+            <div class="footer-lower-terms-container">
+              <p>
+                Terms and Conditions | Privacy Policy | © 2020 Law Office of Mahdi Abdur-Rahman. All rights
+                reserved.
               </p>
             </div>
-          </div>
-          <div class="footer-upper-subholder">
-            <div class="footer-title">Quick Links</div>
-            <div class="footer-link">Home</div>
-            <div class="footer-link">Services</div>
-            <div class="footer-link">About Us</div>
-            <div class="footer-link">Contact Us</div>
-            <div class="footer-link">Practices Areas</div>
-          </div>
-          <div class="footer-upper-subholder">
-            <div class="footer-title">Service Offerings</div>
-            <div class="footer-link">Personal Injury</div>
-            <div class="footer-link">Workers Compensation</div>
-            <div class="footer-link">Small Business Consulting</div>
-            <div class="footer-link">Estate Planning</div>
-            <div class="footer-link">Intellectual Property</div>
-          </div>
-          <div class="footer-upper-subholder">
-            <div class="footer-title">Head Office</div>
-            <div class="footer-link">206 Pryor Street, Suite C-2,</div>
-            <div class="footer-link">Atlanta, GA 30303</div>
-            <div class="footer-link">Email: example@example.com</div>
-            <div class="footer-link">Phone: (470) 225-8642</div>
-            <div class="footer-link">Fax: (404) 393-1849</div>
-          </div>
-        </div>
-        <div class="footer-lower">
-          <div class="footer-lower-icons-container">
-            <span><i class="fab fa-facebook-square"></i></span>
-            <span><i class="fab fa-instagram"></i></span>
-            <span><i class="fab fa-twitter-square"></i></span>
-            <span><i class="fab fa-linkedin-in"></i></span>
-          </div>
-          <div class="footer-lower-terms-container">
-            <p>
-              Terms and Conditions | Privacy Policy | © 2020 Law Office of Mahdi Abdur-Rahman. All rights
-              reserved.
-            </p>
           </div>
         </div>
       </div>
