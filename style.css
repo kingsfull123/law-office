@@ -1,0 +1,108 @@
+:root {
+  --primary-yellow: rgb(191, 144, 38);
+  --primary-gray: #3f3d45;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* https://stackoverflow.com/questions/30358630/html-body-not-filling-complete-width-on-mobile-devices */
+  /* Following two line are important to have body fit the full screen when less than 400px */
+  overflow: auto;
+  disply: flex;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* Header */
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+}
+
+.nav-container {
+  padding: 0 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  width: 300px;
+  height: 130px;
+  display: flex;
+}
+
+.logo-container img {
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: rwo nowrap;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding-right: 40px;
+  color: #000;
+  font-size: 23px;
+  opacity: 1;
+}
+
+.burger-container {
+  opacity: 0;
+}
+
+.phone-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.phone-number {
+  padding-right: 30px;
+  font-size: 25px;
+}
+
+/* Hero */
+
+.hero {
+  width: 100%;
+  height: 800px;
+  background-image: url("./images/city.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+}
+
+.hero-container {
+  margin: auto;
+  z-index: 1;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
